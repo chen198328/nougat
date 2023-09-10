@@ -55,6 +55,9 @@ setup(
         "sconf>=0.2.3",
         "albumentations",
         "pymupdf",
+        "fastapi",
+        "uvicorn[standard]",
+        "python-multipart"
     ],
     extras_require={
         "api": [
